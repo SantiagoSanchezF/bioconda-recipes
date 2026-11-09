@@ -1,5 +1,5 @@
 {% set name = "varcode" %}
-{% set version = "10.22.2" %}
+{% set version = "11.9.2" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7839d3f78a7cb30b2697aed77fcc1dc1f5e1376816aad7fb664adc7fe5288dbe
+  sha256: 90d27603a2ff2c4e81861af11e46598346c4751a2072998149ac5f0ffeef01b1
 
 build:
   number: 0
